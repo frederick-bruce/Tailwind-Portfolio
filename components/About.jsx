@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 const About = () => {
-  const aboutImage = "../public/assets/about.jpg"
+  const aboutImage = 
   return (
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
@@ -18,7 +18,7 @@ const About = () => {
           </p>
         </div>
         <div className="w-full h-full m-auto shadow-gray-400 shadow-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-          <Image className="rounded-xl" src={aboutImage} width={500} height={500} alt="" />
+          <Image className="rounded-xl" src="../public/assets/about.jpg" width={"500px"} height={"500px"} alt="" />
         </div>
       </div>
     </div>
