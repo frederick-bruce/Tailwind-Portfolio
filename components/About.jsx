@@ -15,7 +15,6 @@ const About = () => {
             applications has helped me gain knowledge in many of today&apos;s popular
             libraries such as Tailwind and NextJS.
           </p>
-          <p className="text-gray-600 underline cursor-pointer hover:text-[#27a2bd">Check out my latest projects</p>
         </div>
         <div className="w-full h-full m-auto shadow-gray-400 shadow-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
           <Image className="rounded-xl" src="/../public/assets/about-img.png" width={500} height={500} alt="/" />
