@@ -2,8 +2,9 @@ import React from "react";
 import Image from "next/image";
 
 const About = () => {
+  const aboutImage = "/../public/assets/about-img.png"
   return (
-    <div className="w-full md:h-screen p-2 flex items-center py-16">
+    <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
           <p className="uppercase text-xl tracking-widest text-[#27a2bd">About</p>
@@ -17,7 +18,7 @@ const About = () => {
           </p>
         </div>
         <div className="w-full h-full m-auto shadow-gray-400 shadow-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-          <Image className="rounded-xl" src="/../public/assets/about-img.png" width={500} height={500} alt="/" />
+          <Image className="rounded-xl" src={aboutImage} width={500} height={500} alt="" />
         </div>
       </div>
     </div>
