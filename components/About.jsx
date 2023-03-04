@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 const About = () => {
-  const aboutImage = "/../public/assets/about.jpg"
+  const aboutImage = "../public/assets/about.jpg"
   return (
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
